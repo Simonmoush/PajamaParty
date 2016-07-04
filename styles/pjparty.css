@@ -1,0 +1,155 @@
+body{
+	margin-top: 0px;
+}
+
+.socialmedia{
+	display: inline-block;
+	height: 40px;
+	padding: 10px;
+}
+
+#home_header{
+	font-family: "TeX Gyre Adventor";
+	font-weight: bold;
+	font-size: 6em;
+	text-align: center;
+	letter-spacing: -2px;
+	color: #945760;
+}
+
+#artist_header{
+	font-family: "TeX Gyre Adventor";
+	font-weight: bold;
+	font-size: 3em;
+	letter-spacing: -2px;
+	color: #945760;
+	padding-left: 140px;
+}
+
+.biopic{
+	height: 250px;
+	display: block;
+	padding: 20px;
+}
+
+.image{
+	margin: auto;
+	display: block;
+	padding: 20px;
+	max-height: 1080px;
+	max-width: 1030px;
+}
+
+.textbox{
+	width: 80%;
+	margin: auto;
+}
+
+.textbox p{
+	line-height: 150%;
+	word-wrap: break-word; /* IE>=5.5 */
+	white-space: pre; /* IE>=6 */
+	white-space: -moz-pre-wrap; /* For Fx<=2 */
+	white-space: pre-wrap; /* Fx>3, Opera>8, Safari>3*/
+}
+
+#content{
+	width: 90%;
+	margin: auto;
+}
+
+#content h1, #content h2{
+	font-family: "TeX Gyre Adventor";
+	font-weight: bold;
+	letter-spacing: -2px;
+	color: #945760;
+}
+
+#content #gif{
+	height: 300px;
+	display: block;
+	margin: auto;
+	padding-bottom: 60px;
+}
+
+#nav{
+	position: fixed;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+#artist_header a{
+	text-decoration: none;
+	color: #945760;
+}
+
+#center{
+	padding: 10px;
+	width: 90%;
+	min-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0px 0px 8px 4px lightGrey;
+}
+
+#arrows{
+	width: 150px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td {
+	padding: 20px;
+}
+td img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+/* Dropdown stuff */
+
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #616161;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+	max-height: 500px;
+	overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}

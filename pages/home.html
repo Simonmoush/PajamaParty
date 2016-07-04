@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="../styles/pjparty.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<title>Pajama Party</title>
+</head>
+
+<body>
+	<div id="center">
+		<div id="home_header">Pajama Party</div>
+		<div id="content">
+			<ul>
+				<li>Mirissa Leja's twitter handle seems to have changed from "crystal_miri" to "_seaplant_". Should I change it?</li>
+				<li>Elio Perez's handle @aaaooaooo doesn't check out anywhere</li>
+				<li>Do we want to keep Delia Rainey's "maybe" folder?</li>
+				<li>Maya: is only the text a page from the zine, or are the images as well? Excerpt from untitled short story. collage is page from zine</li>
+				<li>Add maya's social media links, and zine website link</li>
+			</ul>
+			<table style="width: 80%; margin: auto;">
+				<tr>
+					<td><a href="Affleck_Amy.html"><img src="../artists/Affleck, Amy/amyaffleck.jpg"></a></td>
+					<td><a href="Anderson_Kofi_KeVonte.html"><img src="../artists/Anderson, Kofi KeVonte/kofikevonteanderson.jpg"></a></td>
+					<td><a href="Angee_Sarah.html"><img src="../artists/Angee, Sarah/sarahangee.jpg"></a></td>
+					<td><a href="Aranda_Jose.html"><img src="../artists/Aranda, Jose/josearanda.jpg"></a></td>
+					<td><a href="Brill_Emily.html"><img src="../artists/Brill, Emily/emilybrill.jpg"></a></td>
+					<td><a href="Budin_Samuel_Lang.html"><img src="../artists/Budin, Samuel Lang/samuellangbudin.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="Castillo_Sebastian.html"><img src="../artists/Castillo, Sebastian/sebastiancastillo.jpg"></a></td>
+					<td><a href="Curtis_Devin.html"><img src="../artists/Curtis, Devin/devincurtis.jpg"></a></td>
+					<td><a href="Diaz_Hui_Alex.html"><img src="../artists/Diaz-Hui, Alex/alexdiazhui.jpg"></a></td>
+					<td><a href="Diaz_Salim_Omar.html"><img src="../artists/Diaz Salim, Omar/omardiazsalim.jpg"></a></td>
+					<td><a href="Fleischmann_matias.html"><img src="../artists/Fleischmann, Matias/matiasfleischmann.jpg"></a></td>
+					<td><a href="Fox_Theodore.html"><img src="../artists/Fox, Theodore/theodorefox.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="Gyamerah_Ama.html"><img src="../artists/Gyamerah, Ama/amagyamerah.jpg"></a></td>
+					<td><a href="Hamrick_Neil.html"><img src="../artists/Hamrick, Neil/neilhamrick.jpg"></a></td>
+					<td><a href="Hoxsie_Jordan.html"><img src="../artists/Hoxsie, Jordan/jordanhoxsie.jpg"></a></td>
+					<td><a href="Iacono_Thomas.html"><img src="../artists/Iacono, Thomas/thomasiacono.jpg"></a></td>
+					<td><a href="J_Sarah.html"><img src="../artists/J, Sarah/sarahj.jpg"></a></td>
+					<td><a href="Jones_Justin_Chase.html"><img src="../artists/Jones, Justin Chase/justinchasejones.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="Kavanaugh_Marshall_James.html"><img src="../artists/Kavanaugh, Marshal James/marshalljameskavanaugh.jpg"></a></td>
+					<td><a href="Leja_Mirissa.html"><img src="../artists/Leja, Mirissa/mirissaleja.jpg"></a></td>
+					<td><a href="Martin_Bianca.html"><img src="../artists/Martin, Bianca/biancamartin.jpg"></a></td>
+					<td><a href="Molina_Francisco.html"><img src="../artists/Molina, Francisco/franciscomolina.jpg"></a></td>
+					<td><a href="Moushabeck_Simon.html"><img src="../artists/Moushabeck, Simon/simonmoushabeck.jpg"></a></td>
+					<td><a href="Moyer_Perez_Amelia.html"><img src="../artists/Moyer-Perez, Amelia/ameliamoyerperez.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="Monaco_Skylen_Cheickna.html"><img src="../artists/Monaco, Skylen Chieckna/skylencheicknamonaco.jpg"></a></td>
+					<td><a href="Ortiz_Jesse.html"><img src="../artists/Ortiz, Jesse/jesseortiz.jpg"></a></td>
+					<td><a href="Pink_Chai_Shawni.html"><img src="../artists/Pink, Chai-Shawni/chaishawnipink.jpg"></a></td>
+					<td><a href="Patterson_Emily.html"><img src="../artists/Patterson, Emily/emilypatterson.jpg"></a></td>
+					<td><a href="Perez_Elio.html"><img src="../artists/Perez, Elio/elioperez.jpg"></a></td>
+					<td><a href="Rainey_Delia.html"><img src="../artists/Rainey, Delia/deliarainey.jpg"></a></td>
+				</tr>
+				<tr>
+					<td><a href="Reyes_Maya.html"><img src="../artists/Reyes, Maya/mayareyes.jpg"></a></td>
+					<td><a href="SC_Mari.html"><img src="../artists/S.C., Mari/marisc.jpg"></a></td>
+					<td><a href="Shaw_Dave.html"><img src="../artists/Shaw, Dave/daveshaw.jpg"></a></td>
+					<td><a href="Talbot_Emily.html"><img src="../artists/Talbot, Emily/emilytalbot.jpg"></a></td>
+					<td><a href="Tarr_Ryan.html"><img src="../artists/Tarr, Ryan/ryantarr.jpg"></a></td>
+					<td><a href="Wennerberg_Alex.html"><img src="../artists/Wennerberg, Alex/alexwennerberg.jpg"></a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<script>
+		$(function(){
+			$('img').hover(function(){
+				$(this).attr('src', $(this).attr('src').replace('.jpg', '.gif'));
+			},
+			function(){
+				$(this).attr('src', $(this).attr('src').replace('.gif', '.jpg'));
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<div class="dropdown">
+	<button onclick="showMenu()" class="dropbtn">All Artists</button>
+	<div id="allWorks" class="dropdown-content">
+					<a href="Affleck_Amy.html">Amy Affleck</a>
+					<a href="Anderson_Kofi_KeVonte.html">Kofi KeVont&eacute Anderson</a>
+					<a href="Angee_Sarah.html">Sarah Angee</a>
+					<a href="Aranda_Jose.html">Jos&eacute Aranda</a>
+					<a href="Brill_Emily.html">Emily Brill</a>
+					<a href="Budin_Samuel_Lang.html">Samuel Lang Budin</a>
+					<a href="Castillo_Sebastian.html">Sebastian Castillo</a>
+					<a href="Curtis_Devin.html">Devin Curtis</a>
+					<a href="Diaz_Hui_Alex.html">Alex D&iacuteaz-Hui</a>
+					<a href="Diaz_Salim_Omar.html">Omar D&iacuteaz Salim</a>
+					<a href="Fleischmann_Matias.html">Mat&iacuteas Fleischmann</a>
+					<a href="Fox_Theodore.html">Theodore Fox</a>
+					<a href="Gyamerah_Ama.html">Ama Gyamerah</a>
+					<a href="Hamrick_Neil.html">Neil H.</a>
+					<a href="Hoxsie_Jordan.html">Jordan Hoxsie</a>
+					<a href="Iacono_Thomas.html">Thomas Iacono</a>
+					<a href="J_Sarah.html">Sarah J.</a>
+					<a href="Jones_Justin_Chase.html">Justin Chase Jones</a>
+					<a href="Kavanaugh_Marshall_James.html">Marshall James Kavanaugh</a>
+					<a href="Leja_Mirissa.html">Mirissa Leja</a>
+					<a href="Martin_Bianca.html">Bianca Martin</a>
+					<a href="Molina_Francisco.html">Francisco Molina</a>
+					<a href="Moushabeck_Simon.html">Simon Moushabeck</a>
+					<a href="Moyer_Perez_Amelia.html">Amelia Moyer-P&eacuterez</a>
+					<a href="Monaco_Skylen_Cheickna.html">Skylen Cheickna Monaco</a>
+					<a href="Ortiz_Jesse.html">Jesse Ortiz</a>
+					<a href="Pink_Chai_Shawni.html">Chai-Shawni Pink</a>
+					<a href="Patterson_Emily.html">Emily Patterson</a>
+					<a href="Perez_Elio.html">Elio P&eacuterez</a>
+					<a href="Rainey_Delia.html">Delia Rainey</a>
+					<a href="Reyes_Maya.html">Maya Reyes</a>
+					<a href="SC_Mari.html">Mari S.C.</a>
+					<a href="Shaw_Dave.html">Dave Shaw</a>
+					<a href="Talbot_Emily.html">Emily Talbot</a>
+					<a href="Tarr_Ryan.html">Ryan Tarr</a>
+					<a href="Wennerberg_Alex.html">Alex Wennerberg</a>
+	</div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function showMenu() {
+	document.getElementById("allWorks").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+	var dropdowns = document.getElementsByClassName("dropdown-content");
+	var i;
+	for (i = 0; i < dropdowns.length; i++) {
+	  var openDropdown = dropdowns[i];
+	  if (openDropdown.classList.contains('show')) {
+		openDropdown.classList.remove('show');
+	  }
+	}
+  }
+}
+</script>
