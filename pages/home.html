@@ -68,10 +68,10 @@
 	<script>
 		$(function(){
 			$('img').hover(function(){
-				$(this).attr('src', "thumb_" + $(this).attr('src').replace('.jpg', '.gif'));
+				$(this).attr('src', $(this).attr('src').replace('.jpg', '.gif'));
 			},
 			function(){
-				$(this).attr('src', $(this).attr('src').replace('.gif', '.jpg').substring(7));
+				$(this).attr('src', $(this).attr('src').replace('.gif', '.jpg'));
 			});
 		});
 	</script>
