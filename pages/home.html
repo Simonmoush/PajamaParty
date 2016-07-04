@@ -74,53 +74,6 @@
 				$(this).attr('src', $(this).attr('src').replace('.gif', '.jpg'));
 			});
 		});
-
-		$.fn.preload = function() {
-			this.each(function(){
-				$('<img/>')[0].src = this;
-			});
-		}
-
-		// Usage:
-
-		$([
-		"../artists/Affleck, Amy/amyaffleck.gif",
-		"../artists/Anderson, Kofi KeVonte/kofikevonteanderson.gif",
-		"../artists/Angee, Sarah/sarahangee.gif",
-		"../artists/Aranda, Jose/josearanda.gif",
-		"../artists/Brill, Emily/emilybrill.gif",
-		"../artists/Budin, Samuel Lang/samuellangbudin.gif",
-		"../artists/Castillo, Sebastian/sebastiancastillo.gif",
-		"../artists/Curtis, Devin/devincurtis.gif",
-		"../artists/Diaz-Hui, Alex/alexdiazhui.gif",
-		"../artists/Diaz Salim, Omar/omardiazsalim.gif",
-		"../artists/Fleischmann, Matias/matiasfleischmann.gif",
-		"../artists/Fox, Theodore/theodorefox.gif",
-		"../artists/Gyamerah, Ama/amagyamerah.gif",
-		"../artists/Hamrick, Neil/neilhamrick.gif",
-		"../artists/Hoxsie, Jordan/jordanhoxsie.gif",
-		"../artists/Iacono, Thomas/thomasiacono.gif",
-		"../artists/J, Sarah/sarahj.gif",
-		"../artists/Jones, Justin Chase/justinchasejones.gif",
-		"../artists/Kavanaugh, Marshall James/marshalljameskavanaugh.gif",
-		"../artists/Leja, Mirissa/mirissaleja.gif",
-		"../artists/Martin, Bianca/biancamartin.gif",
-		"../artists/Molina, Francisco/franciscomolina.gif",
-		"../artists/Moushabeck, Simon/simonmoushabeck.gif",
-		"../artists/Moyer-Perez, Amelia/ameliamoyerperez.gif",
-		"../artists/Monaco, Skylen Chieckna/skylencheicknamonaco.gif",
-		"../artists/Ortiz, Jesse/jesseortiz.gif",
-		"../artists/Pink, Chai-Shawni/chaishawnipink.gif",
-		"../artists/Patterson, Emily/emilypatterson.gif",
-		"../artists/Perez, Elio/elioperez.gif",
-		"../artists/Rainey, Delia/deliarainey.gif",
-		"../artists/Reyes, Maya/mayareyes.gif",
-		"../artists/S.C., Mari/marisc.gif",
-		"../artists/Shaw, Dave/daveshaw.gif",
-		"../artists/Talbot, Emily/emilytalbot.gif",
-		"../artists/Tarr, Ryan/ryantarr.gif",
-		"../artists/Wennerberg, Alex/alexwennerberg.gif"
-		]).preload();
 	</script>
 </body>
 </html>
