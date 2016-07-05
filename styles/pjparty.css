@@ -7,10 +7,40 @@ body{
 	margin-top: 0px;
 }
 
+#about{
+	padding: 16px;
+	text-align: center;
+	background-color: grey;
+	width: 50px;
+	margin: auto;
+	color: white;
+	font-family: sans;
+	text-decoration: none;
+}
+
+#about:hover, #about:focus {
+    background-color: #616161;
+}
+
+#contact{
+	padding: 16px;
+	text-align: center;
+	background-color: grey;
+	width: 150px;
+	color: white;
+	font-family: sans;
+	text-decoration: none;
+}
+
+#contact:hover, #contact:focus {
+    background-color: #616161;
+}
+
 .socialmedia{
 	display: inline-block;
 	height: 40px;
 	padding: 10px;
+	vertical-align: middle;
 }
 
 #home_header{
