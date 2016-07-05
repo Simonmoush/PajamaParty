@@ -74,6 +74,53 @@
 				$(this).attr('src', $(this).attr('src').replace('.gif', '.jpg'));
 			});
 		});
+
+		$.fn.preload = function() {
+			this.each(function(){
+				$('<img/>')[0].src = this;
+			});
+		}
+
+		// Usage:
+
+		$([
+		"../artists/Affleck, Amy/thumb_amyaffleck.gif",
+		"../artists/Anderson, Kofi KeVonte/thumb_kofikevonteanderson.gif",
+		"../artists/Angee, Sarah/thumb_sarahangee.gif",
+		"../artists/Aranda, Jose/thumb_josearanda.gif",
+		"../artists/Brill, Emily/thumb_emilybrill.gif",
+		"../artists/Budin, Samuel Lang/thumb_samuellangbudin.gif",
+		"../artists/Castillo, Sebastian/thumb_sebastiancastillo.gif",
+		"../artists/Curtis, Devin/thumb_devincurtis.gif",
+		"../artists/Diaz-Hui, Alex/thumb_alexdiazhui.gif",
+		"../artists/Diaz Salim, Omar/thumb_omardiazsalim.gif",
+		"../artists/Fleischmann, Matias/thumb_matiasfleischmann.gif",
+		"../artists/Fox, Theodore/thumb_theodorefox.gif",
+		"../artists/Gyamerah, Ama/thumb_amagyamerah.gif",
+		"../artists/Hamrick, Neil/thumb_neilhamrick.gif",
+		"../artists/Hoxsie, Jordan/thumb_jordanhoxsie.gif",
+		"../artists/Iacono, Thomas/thumb_thomasiacono.gif",
+		"../artists/J, Sarah/thumb_sarahj.gif",
+		"../artists/Jones, Justin Chase/thumb_justinchasejones.gif",
+		"../artists/Kavanaugh, Marshall James/thumb_marshalljameskavanaugh.gif",
+		"../artists/Leja, Mirissa/thumb_mirissaleja.gif",
+		"../artists/Martin, Bianca/thumb_biancamartin.gif",
+		"../artists/Molina, Francisco/thumb_franciscomolina.gif",
+		"../artists/Moushabeck, Simon/thumb_simonmoushabeck.gif",
+		"../artists/Moyer-Perez, Amelia/thumb_ameliamoyerperez.gif",
+		"../artists/Monaco, Skylen Chieckna/thumb_skylencheicknamonaco.gif",
+		"../artists/Ortiz, Jesse/thumb_jesseortiz.gif",
+		"../artists/Pink, Chai-Shawni/thumb_chaishawnipink.gif",
+		"../artists/Patterson, Emily/thumb_emilypatterson.gif",
+		"../artists/Perez, Elio/thumb_elioperez.gif",
+		"../artists/Rainey, Delia/thumb_deliarainey.gif",
+		"../artists/Reyes, Maya/thumb_mayareyes.gif",
+		"../artists/S.C., Mari/thumb_marisc.gif",
+		"../artists/Shaw, Dave/thumb_daveshaw.gif",
+		"../artists/Talbot, Emily/thumb_emilytalbot.gif",
+		"../artists/Tarr, Ryan/thumb_ryantarr.gif",
+		"../artists/Wennerberg, Alexthumb_/alexwennerberg.gif"
+		]).preload();
 	</script>
 </body>
 </html>
