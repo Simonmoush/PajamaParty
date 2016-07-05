@@ -15,7 +15,6 @@ body{
 
 #home_header{
 	font-family: 'texgyreadventor', 'sans';
-	font-weight: bold;
 	font-size: 6em;
 	text-align: center;
 	letter-spacing: -2px;
@@ -24,7 +23,6 @@ body{
 
 #artist_header{
 	font-family: 'texgyreadventor', 'sans';
-	font-weight: bold;
 	font-size: 3em;
 	letter-spacing: -2px;
 	color: #945760;
@@ -65,7 +63,6 @@ body{
 
 #content h1, #content h2{
 	font-family: 'texgyreadventor', 'sans';
-	font-weight: bold;
 	letter-spacing: -2px;
 	color: #945760;
 }
