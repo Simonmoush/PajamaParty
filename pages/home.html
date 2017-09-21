@@ -5,14 +5,42 @@
 	<link rel="stylesheet" type="text/css" href="../styles/pjparty.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<title>Pajama Party</title>
+	<style>
+		#sugar {
+			width: 100%;
+			text-align: center;
+		}
+
+		#sugar a{
+			font-family: "Comic Sans MS", cursive, sans-serif;
+			font-size: 3em;
+			font-weight: bold;
+			letter-spacing: .5em;
+			text-decoration: none;
+			color: #ff00d8;
+
+			animation-name: changeColor;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes changeColor{
+			0%		{color: #ff00b4}
+			50%		{color: #c300ff}
+			100%	{color: #ff00b4}
+		}
+	</style>
 </head>
 
 <body>
 	<div id="center">
+		<div id="sugar">
+			<a href=#>LEND US SOME SUGAR</a>
+		</div>
 		<div id="home_header">Pajama Party</div>
 		<div id="content">
 			<p style="text-align: center;">A zine to be read among friends and pillows</p>
-			<p style="text-align: center;">Un fanzine para ser le&iacutedo entre amigxs y almohadas</p>
+			<p style="text-align: center;">Un fanzine para ser le&iacute;do entre amigxs y almohadas</p>
 			<div>
 				<a href="about.html" style="text-decoration: none;"><div id="about">About</div></a>
 			</div>
