@@ -1,0 +1,67 @@
+<div id="arrows">
+	<a id="back" href=#><img src="../images/back.jpeg" style="float: left" height="50px" width="50px"></img></a>
+	<a id="forward" href=#><img src="../images/back.jpeg" style="float: right; -ms-transform: rotate(180deg); -webkit-transform: rotate(180deg); transform: rotate(180deg);" height="50px" width="50px"></img></a>
+</div>
+<h3 style="color: white;">fuck squarespace</h3>
+
+<script>
+	var worksList = [
+					"Affleck_Amy.html",
+					"Anderson_Kofi_KeVonte.html",
+					"Angee_Sarah.html",
+					"Aranda_Jose.html",
+					"Brill_Emily.html",
+					"Budin_Samuel_Lang.html",
+					"Castillo_Sebastian.html",
+					"Curtis_Devin.html",
+					"Diaz_Hui_Alex.html",
+					"Diaz_Salim_Omar.html",
+					"Fleischmann_Matias.html",
+					"Fox_Theodore.html",
+					"Gyamerah_Ama.html",
+					"Hamrick_Neil.html",
+					"Hoxsie_Jordan.html",
+					"Iacono_Thomas.html",
+					"J_Sarah.html",
+					"Jones_Justin_Chase.html",
+					"Kavanaugh_Marshall_James.html",
+					"Leja_Mirissa.html",
+					"Martin_Bianca.html",
+					"Molina_Francisco.html",
+					"Moushabeck_Simon.html",
+					"Moyer_Perez_Amelia.html",
+					"Monaco_Skylen_Cheickna.html",
+					"Ortiz_Jesse.html",
+					"Pink_Chai_Shawni.html",
+					"Patterson_Emily.html",
+					"Perez_Elio.html",
+					"Rainey_Delia.html",
+					"Reyes_Maya.html",
+					"SC_Mari.html",
+					"Shaw_Dave.html",
+					"Talbot_Emily.html",
+					"Tarr_Ryan.html",
+					"Wennerberg_Alex.html"
+					]
+
+	var backArrow = document.getElementById("back");
+	var forwardArrow = document.getElementById("forward");
+
+	var nextUrl = "#";
+	var previousUrl = "#";
+
+	var url = window.location.href;
+	var fileName = new RegExp(/\w+\.html/i).exec(url).toString();
+
+
+	var pagenum = worksList.indexOf(fileName);
+	if(pagenum < worksList.length-1){
+		nextUrl = worksList[pagenum+1];
+	}
+	if(pagenum > 0){
+		previousUrl = worksList[pagenum-1];
+	}
+
+	backArrow.setAttribute("href", previousUrl)
+	forwardArrow.setAttribute("href", nextUrl)
+</script>
