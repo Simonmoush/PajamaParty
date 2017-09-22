@@ -7,6 +7,30 @@ body{
 	margin-top: 0px;
 }
 
+#sugar {
+	width: 100%;
+	text-align: center;
+}
+
+#sugar a{
+	font-family: 'texgyreadventor', "Comic Sans MS", cursive, sans-serif;
+	font-size: 3em;
+	font-weight: bold;
+	letter-spacing: .5em;
+	text-decoration: none;
+	color: #ff00d8;
+
+	animation-name: changeColor;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes changeColor{
+	0%		{color: #ff00b4}
+	50%		{color: #c300ff}
+	100%	{color: #ff00b4}
+}
+
 #about{
 	padding: 16px;
 	text-align: center;
